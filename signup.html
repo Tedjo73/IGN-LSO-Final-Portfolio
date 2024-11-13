@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Gamer Account Signup</title>
+    <link rel="stylesheet" href="signup.css">
+</head>
+<body>
+    <div class="all">
+    <div class="con1">
+        <div class="back-button">
+            <a href="index.html"  class="bk">Back</a>
+        </div>
+    </div>
+    <div class="con2">
+    <div class="container">
+        <h1>Create Your Gamer Account</h1>
+        <form class="signup-form" action="index.html">
+            <div class="form-group">
+                <label for="username">Username:</label>
+                <input type="text" id="username" name="username" required>
+            </div>
+            <div class="form-group">
+                <label for="email">Email:</label>
+                <input type="email" id="email" name="email" required>
+            </div>
+            <div class="form-group">
+                <label for="password">Password:</label>
+                <input type="password" id="password" name="password" required>
+            </div>
+            <div class="form-group">
+                <label for="confirm-password">Confirm Password:</label>
+                <input type="password" id="confirm-password" name="confirm-password" required>
+            </div>
+            <div class="form-group">
+                <label for="platform">Preferred Gaming Platform:</label>
+                <select id="platform" name="platform">
+                    <option value="pc">PC</option>
+                    <option value="xbox">Xbox</option>
+                    <option value="playstation">PlayStation</option>
+                    <option value="nintendo">Nintendo</option>
+                </select>
+            </div>
+            <div class="form-group">
+                <input type="submit" value="Sign Up">
+                <p>Already have an account? <a href="login.html">Login here</a></p>
+            </div>
+        </form>
+    </div>
+    </div>
+    </div>
+</body>
+</html>
